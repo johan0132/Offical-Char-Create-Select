@@ -130,7 +130,7 @@ class SelectEmpireWindow(ui.ScriptWindow):
 		self.SetWindowName("SelectEmpireWindow")
 		self.Show()	
 
-		if not self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "SelectEmpireWindow.py"):
+		if not self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "New_SelectEmpireWindow.py"):
 			dbg.TraceError("SelectEmpireWindow.Open - __LoadScript Error")
 			return
 
